@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300&display=swap');
+
+.Navbar_hover:hover{
+  background: #2bb98c;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 0;
+}
+
+.logo_image{
+ margin-top: 10px;
+ margin-left: -10px;
+}
+
+.container{
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+
+.text_name{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.container .skill-box{
+  width: 100%;
+  margin: 25px 0;
+}
+.skill-box .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.skill-box .skill-bar{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  background: #fff;
+}
+.skill-box .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background: crimson;
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+
+.skill-per.css{
+  width: 70%;
+  animation-delay: 0.1s;
+}
+.skill-per.javascript{
+  width: 60%;
+  animation-delay: 0.2s;
+}
+.skill-per.php{
+  width: 50%;
+  animation-delay: 0.3s;
+}
+.skill-per.mysql{
+  width: 30%;
+  animation-delay: 0.4s;
+}
+.skill-per.reactjs{
+  width: 40%;
+  animation-delay: 0.4s;
+}
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.skill-per .tooltip{
+  position: absolute;
+  right: -14px;
+  top: -28px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 3px;
+  background: crimson;
+  z-index: 1;
+  padding: 2px 6px;
+}
+.bgborder{
+  background: #fff;
+  border-radius: 100%;
+  border: solid 3px rgb(233, 233, 250);
+}
+
+.facebook_color{
+  color: #4267B2;
+}
+
+.youtube_color{
+  color: #FF0000;
+  margin-left: 20px;
+}
+
+.instagram-color{
+  color: #F56040;
+  margin-left: 20px;
+}
+
+.text b{
+  color: red;
+}
+
+.email_color{
+  color: #DB4437;
+}
+
+.whatapp_color{
+  color: #25D366;
+}
+
+.Phone_color{
+  color: #144a28;
+}
+
+.www_come{
+  color: #800080;
+}
+
+.logo img{
+  border-radius: 100%;
+  border: solid ghostwhite 4px;
+  border-width: 0.3;
+  width: 150px;
+}
+
+.font_lao{
+  font-family: 'Noto Sans Lao', sans-serif;
+}
+
+.Effect_Card:hover{
+  transform: translateX(2rem);
+  box-shadow: 0 10px 40px rgb(0, 0, 0, 0.4);
+  cursor: pointer;
+  background: #9c8e8e;
+}
+.Effect_Card1:hover{
+  transform: translateX(2rem);
+  box-shadow: 0 10px 40px rgb(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.Effect_background{
+  transform: translateX(5rem);
+  cursor: pointer;
+  box-shadow: 0 10px 40px rgb(0, 0, 0, 0.4);
+}
+
+.Effect_logo{
+  transform: translateX(5rem);
+  cursor: pointer;
+  box-shadow:  rgb(0, 0, 0, 0.4);
+  border-radius: 100%;
+}
+
+.color{
+  color: red;
+}
+
+.style{
+  color: #11e860;
+}
